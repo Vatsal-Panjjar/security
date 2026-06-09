@@ -88,7 +88,7 @@ jobs:
 
       # Trivy Container Scan
       - name: Trivy Image Scan
-        uses: aquasecurity/trivy-action@0.28.0
+        uses: aquasecurity/trivy-action@0.36.0
         with:
           image-ref: app:${{ github.sha }}
           format: table
