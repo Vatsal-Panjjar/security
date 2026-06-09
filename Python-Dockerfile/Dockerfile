@@ -1,4 +1,4 @@
-FROM python:3.11.0b4-slim-buster
+FROM python:3.10
 WORKDIR /app
 RUN groupadd -r app && useradd -r -g app app
 COPY . .
