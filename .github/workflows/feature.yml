@@ -81,10 +81,10 @@ jobs:
       # Build Docker Image
       - name: Build Docker Image
         run: |
-          docker build \
-            -t app:${{ github.sha }} \
-            -f Dockerfile/Python-Dockerfile \
-            Dockerfile
+         docker build \
+         -t app:${{ github.sha }} \
+         -f Python-Dockerfile/Dockerfile \
+         Python-Dockerfile
 
       # Trivy Container Scan
       - name: Trivy Image Scan
