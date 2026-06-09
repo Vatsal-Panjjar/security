@@ -1,6 +1,6 @@
 FROM python:3.12-alpine
 WORKDIR /app
-RUN addgroup -r app && adduser -r -g app app
+RUN addgroup -S app && adduser -S app -G app
 COPY . .
 
 USER app
