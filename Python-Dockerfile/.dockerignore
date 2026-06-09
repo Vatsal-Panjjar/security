@@ -1,0 +1,58 @@
+# Git
+.git
+.gitignore
+ 
+# GitHub
+.github
+
+# Terraform
+terraform/
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Documentation
+README.md
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+
+# Terraform Plans
+tfplan
+*.plan
+
+# Trivy
+.trivyignore
+
+# Misc
+*.tmp
+*.bak
