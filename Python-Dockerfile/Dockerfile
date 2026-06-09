@@ -1,4 +1,4 @@
-FROM python:3.10
+FROM python:3.12-alpine
 WORKDIR /app
 RUN groupadd -r app && useradd -r -g app app
 COPY . .
